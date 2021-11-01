@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct GuessTheFlagView: View {
     @State private var showingAlert = false
     @State private var scoreTitle = ""
     
@@ -167,6 +167,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        GuessTheFlagView()
     }
 }
