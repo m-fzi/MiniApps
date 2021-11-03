@@ -8,7 +8,7 @@
 import CoreML
 import SwiftUI
 
-struct ContentView: View {
+struct BetterRestView: View {
     @State private var wakeUp = defaultWakeTime
     @State private var sleepAmount = 8.0
     @State private var coffeeAmount = 1
@@ -105,6 +105,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        BetterRestView()
     }
 }
