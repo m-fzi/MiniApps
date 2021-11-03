@@ -126,7 +126,7 @@ struct GuessTheFlagView: View {
     
     private var isItGood: String {
         if score == 8 {
-            return "Excellent!"
+            return "Excellent!!"
         } else if score > 4 {
             return "Good"
         } else if score < 0 {

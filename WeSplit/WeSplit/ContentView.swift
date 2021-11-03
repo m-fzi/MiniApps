@@ -24,6 +24,10 @@ struct ContentView: View {
         return perPerson
     }
     
+    var isNoTip: Bool {
+        return tipPercentage == 0
+    }
+    
     var body: some View {
         NavigationView {
             Form {
@@ -52,6 +56,7 @@ struct ContentView: View {
                 
                 Section {
                     Text(totalPerPerson, format: .currency(code: Locale.current.currencyCode ?? "USD"))
+                        .foregroundColor(isNoTip ? .red : .blue)
                 } header: {
                      Text("Amount Per Person:")
                 }
