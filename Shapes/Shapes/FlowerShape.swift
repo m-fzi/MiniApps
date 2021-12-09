@@ -46,7 +46,7 @@ struct FlowerShape: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct FlowerShape_Previews: PreviewProvider {
     static var previews: some View {
         FlowerShape()
     }

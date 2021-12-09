@@ -9,8 +9,40 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack {
+                HStack {
+                    NavigationLink {
+                        FlowerShape()
+                    } label: {
+                        Rectangle()
+                            .foregroundColor(.red)
+                    }
+                    NavigationLink {
+                        ColorCyclingCircleView()
+                    } label: {
+                        Rectangle()
+                            .foregroundColor(.yellow)
+                    }
+                }
+                HStack {
+                    NavigationLink {
+                         CheckerboardView()
+                    } label: {
+                        Rectangle()
+                            .foregroundColor(.gray)
+                    }
+                    NavigationLink {
+                        SpirographView()
+                    } label: {
+                        Rectangle()
+                            .foregroundColor(.purple)
+                    }
+                }
+            }
+            .frame(width: 300, height: 300)
+            .navigationTitle("Cool Shapes")
+        }
     }
 }
 

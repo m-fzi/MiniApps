@@ -31,7 +31,7 @@ struct ColorCyclingCircle: View {
     }
 }
 
-struct SwiftUIView: View {
+struct ColorCyclingCircleView: View {
     @State private var colorCycle = 0.0
     
     var body: some View {
@@ -44,9 +44,9 @@ struct SwiftUIView: View {
     }
 }
 
-struct SwiftUIView_Previews: PreviewProvider {
+struct ColorCyclingCircle_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView()
+        ColorCyclingCircleView()
     }
 }
 

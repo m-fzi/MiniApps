@@ -53,6 +53,7 @@ struct CheckerboardView: View {
                     is8.toggle()
                 }
             }
+            
     }
 }
 

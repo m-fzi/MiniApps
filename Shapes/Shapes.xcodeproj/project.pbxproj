@@ -11,6 +11,10 @@
 		055EDE1D2760CC2200811A20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055EDE1C2760CC2200811A20 /* ContentView.swift */; };
 		055EDE1F2760CC2300811A20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055EDE1E2760CC2300811A20 /* Assets.xcassets */; };
 		055EDE222760CC2300811A20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055EDE212760CC2300811A20 /* Preview Assets.xcassets */; };
+		055EDE292760CC2F00811A20 /* FlowerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055EDE282760CC2F00811A20 /* FlowerShape.swift */; };
+		055EDE2B2760CC3A00811A20 /* Checkerboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055EDE2A2760CC3A00811A20 /* Checkerboard.swift */; };
+		055EDE2D2760CC4200811A20 /* ColorCyclingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055EDE2C2760CC4200811A20 /* ColorCyclingCircle.swift */; };
+		055EDE2F2760CDE100811A20 /* Spirograph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055EDE2E2760CDE100811A20 /* Spirograph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		055EDE1C2760CC2200811A20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		055EDE1E2760CC2300811A20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		055EDE212760CC2300811A20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		055EDE282760CC2F00811A20 /* FlowerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerShape.swift; sourceTree = "<group>"; };
+		055EDE2A2760CC3A00811A20 /* Checkerboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkerboard.swift; sourceTree = "<group>"; };
+		055EDE2C2760CC4200811A20 /* ColorCyclingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircle.swift; sourceTree = "<group>"; };
+		055EDE2E2760CDE100811A20 /* Spirograph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirograph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				055EDE1A2760CC2200811A20 /* ShapesApp.swift */,
 				055EDE1C2760CC2200811A20 /* ContentView.swift */,
+				055EDE282760CC2F00811A20 /* FlowerShape.swift */,
+				055EDE2C2760CC4200811A20 /* ColorCyclingCircle.swift */,
+				055EDE2A2760CC3A00811A20 /* Checkerboard.swift */,
+				055EDE2E2760CDE100811A20 /* Spirograph.swift */,
 				055EDE1E2760CC2300811A20 /* Assets.xcassets */,
 				055EDE202760CC2300811A20 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				055EDE2B2760CC3A00811A20 /* Checkerboard.swift in Sources */,
 				055EDE1D2760CC2200811A20 /* ContentView.swift in Sources */,
+				055EDE2F2760CDE100811A20 /* Spirograph.swift in Sources */,
+				055EDE2D2760CC4200811A20 /* ColorCyclingCircle.swift in Sources */,
 				055EDE1B2760CC2200811A20 /* ShapesApp.swift in Sources */,
+				055EDE292760CC2F00811A20 /* FlowerShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
