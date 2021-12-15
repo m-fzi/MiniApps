@@ -36,7 +36,7 @@ struct Spirograph: Shape {
 
         var path = Path()
 
-        for theta in stride(from: 0, through: endPoint, by: 0.01) {
+        for theta in stride(from: 0, through: endPoint, by: 0.5) {
             var x = difference * cos(theta) + distance * cos(difference / outerRadius * theta)
             var y = difference * sin(theta) - distance * sin(difference / outerRadius * theta)
 

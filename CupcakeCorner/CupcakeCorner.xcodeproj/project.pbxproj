@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05B6FEAD274CE4450034EBEF /* iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6FEAC274CE4450034EBEF /* iExpenseApp.swift */; };
-		05B6FEAF274CE4450034EBEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6FEAE274CE4450034EBEF /* ContentView.swift */; };
-		05B6FEB1274CE4470034EBEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B6FEB0274CE4470034EBEF /* Assets.xcassets */; };
-		05B6FEB4274CE4470034EBEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B6FEB3274CE4470034EBEF /* Preview Assets.xcassets */; };
-		05B6FEBB274CE48F0034EBEF /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6FEBA274CE48F0034EBEF /* Expenses.swift */; };
-		05B6FEBD274CE49E0034EBEF /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6FEBC274CE49E0034EBEF /* AddView.swift */; };
-		05B6FEBF274CE4B20034EBEF /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6FEBE274CE4B20034EBEF /* ExpenseItem.swift */; };
+		056D39342761F83000AD6171 /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D39332761F83000AD6171 /* CupcakeCornerApp.swift */; };
+		056D39362761F83000AD6171 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D39352761F83000AD6171 /* ContentView.swift */; };
+		056D39382761F83200AD6171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056D39372761F83200AD6171 /* Assets.xcassets */; };
+		056D393B2761F83200AD6171 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056D393A2761F83200AD6171 /* Preview Assets.xcassets */; };
+		056D394227639B0C00AD6171 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D394127639B0C00AD6171 /* CheckoutView.swift */; };
+		056D394427639B1700AD6171 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D394327639B1700AD6171 /* AddressView.swift */; };
+		056D394627639B2200AD6171 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D394527639B2200AD6171 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05B6FEA9274CE4450034EBEF /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		05B6FEAC274CE4450034EBEF /* iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseApp.swift; sourceTree = "<group>"; };
-		05B6FEAE274CE4450034EBEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		05B6FEB0274CE4470034EBEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		05B6FEB3274CE4470034EBEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		05B6FEBA274CE48F0034EBEF /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
-		05B6FEBC274CE49E0034EBEF /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
-		05B6FEBE274CE4B20034EBEF /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		056D39302761F83000AD6171 /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		056D39332761F83000AD6171 /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
+		056D39352761F83000AD6171 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		056D39372761F83200AD6171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		056D393A2761F83200AD6171 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		056D394127639B0C00AD6171 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		056D394327639B1700AD6171 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		056D394527639B2200AD6171 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05B6FEA6274CE4450034EBEF /* Frameworks */ = {
+		056D392D2761F83000AD6171 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +38,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05B6FEA0274CE4450034EBEF = {
+		056D39272761F83000AD6171 = {
 			isa = PBXGroup;
 			children = (
-				05B6FEAB274CE4450034EBEF /* iExpense */,
-				05B6FEAA274CE4450034EBEF /* Products */,
+				056D39322761F83000AD6171 /* CupcakeCorner */,
+				056D39312761F83000AD6171 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		05B6FEAA274CE4450034EBEF /* Products */ = {
+		056D39312761F83000AD6171 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05B6FEA9274CE4450034EBEF /* iExpense.app */,
+				056D39302761F83000AD6171 /* CupcakeCorner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		05B6FEAB274CE4450034EBEF /* iExpense */ = {
+		056D39322761F83000AD6171 /* CupcakeCorner */ = {
 			isa = PBXGroup;
 			children = (
-				05B6FEAC274CE4450034EBEF /* iExpenseApp.swift */,
-				05B6FEAE274CE4450034EBEF /* ContentView.swift */,
-				05B6FEBC274CE49E0034EBEF /* AddView.swift */,
-				05B6FEBA274CE48F0034EBEF /* Expenses.swift */,
-				05B6FEBE274CE4B20034EBEF /* ExpenseItem.swift */,
-				05B6FEB0274CE4470034EBEF /* Assets.xcassets */,
-				05B6FEB2274CE4470034EBEF /* Preview Content */,
+				056D39332761F83000AD6171 /* CupcakeCornerApp.swift */,
+				056D39352761F83000AD6171 /* ContentView.swift */,
+				056D394327639B1700AD6171 /* AddressView.swift */,
+				056D394127639B0C00AD6171 /* CheckoutView.swift */,
+				056D394527639B2200AD6171 /* Order.swift */,
+				056D39372761F83200AD6171 /* Assets.xcassets */,
+				056D39392761F83200AD6171 /* Preview Content */,
 			);
-			path = iExpense;
+			path = CupcakeCorner;
 			sourceTree = "<group>";
 		};
-		05B6FEB2274CE4470034EBEF /* Preview Content */ = {
+		056D39392761F83200AD6171 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				05B6FEB3274CE4470034EBEF /* Preview Assets.xcassets */,
+				056D393A2761F83200AD6171 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -79,39 +79,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05B6FEA8274CE4450034EBEF /* iExpense */ = {
+		056D392F2761F83000AD6171 /* CupcakeCorner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05B6FEB7274CE4470034EBEF /* Build configuration list for PBXNativeTarget "iExpense" */;
+			buildConfigurationList = 056D393E2761F83200AD6171 /* Build configuration list for PBXNativeTarget "CupcakeCorner" */;
 			buildPhases = (
-				05B6FEA5274CE4450034EBEF /* Sources */,
-				05B6FEA6274CE4450034EBEF /* Frameworks */,
-				05B6FEA7274CE4450034EBEF /* Resources */,
+				056D392C2761F83000AD6171 /* Sources */,
+				056D392D2761F83000AD6171 /* Frameworks */,
+				056D392E2761F83000AD6171 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = iExpense;
-			productName = iExpense;
-			productReference = 05B6FEA9274CE4450034EBEF /* iExpense.app */;
+			name = CupcakeCorner;
+			productName = CupcakeCorner;
+			productReference = 056D39302761F83000AD6171 /* CupcakeCorner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		05B6FEA1274CE4450034EBEF /* Project object */ = {
+		056D39282761F83000AD6171 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					05B6FEA8274CE4450034EBEF = {
+					056D392F2761F83000AD6171 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = 05B6FEA4274CE4450034EBEF /* Build configuration list for PBXProject "iExpense" */;
+			buildConfigurationList = 056D392B2761F83000AD6171 /* Build configuration list for PBXProject "CupcakeCorner" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,45 +119,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 05B6FEA0274CE4450034EBEF;
-			productRefGroup = 05B6FEAA274CE4450034EBEF /* Products */;
+			mainGroup = 056D39272761F83000AD6171;
+			productRefGroup = 056D39312761F83000AD6171 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				05B6FEA8274CE4450034EBEF /* iExpense */,
+				056D392F2761F83000AD6171 /* CupcakeCorner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		05B6FEA7274CE4450034EBEF /* Resources */ = {
+		056D392E2761F83000AD6171 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05B6FEB4274CE4470034EBEF /* Preview Assets.xcassets in Resources */,
-				05B6FEB1274CE4470034EBEF /* Assets.xcassets in Resources */,
+				056D393B2761F83200AD6171 /* Preview Assets.xcassets in Resources */,
+				056D39382761F83200AD6171 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05B6FEA5274CE4450034EBEF /* Sources */ = {
+		056D392C2761F83000AD6171 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05B6FEBD274CE49E0034EBEF /* AddView.swift in Sources */,
-				05B6FEBB274CE48F0034EBEF /* Expenses.swift in Sources */,
-				05B6FEBF274CE4B20034EBEF /* ExpenseItem.swift in Sources */,
-				05B6FEAF274CE4450034EBEF /* ContentView.swift in Sources */,
-				05B6FEAD274CE4450034EBEF /* iExpenseApp.swift in Sources */,
+				056D39362761F83000AD6171 /* ContentView.swift in Sources */,
+				056D394427639B1700AD6171 /* AddressView.swift in Sources */,
+				056D394627639B2200AD6171 /* Order.swift in Sources */,
+				056D39342761F83000AD6171 /* CupcakeCornerApp.swift in Sources */,
+				056D394227639B0C00AD6171 /* CheckoutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		05B6FEB5274CE4470034EBEF /* Debug */ = {
+		056D393C2761F83200AD6171 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,7 +218,7 @@
 			};
 			name = Debug;
 		};
-		05B6FEB6274CE4470034EBEF /* Release */ = {
+		056D393D2761F83200AD6171 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -273,15 +273,14 @@
 			};
 			name = Release;
 		};
-		05B6FEB8274CE4470034EBEF /* Debug */ = {
+		056D393F2761F83200AD6171 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Preview Content\"";
-				DEVELOPMENT_TEAM = 52PGG4Y4Z5;
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,7 +293,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = oi.iExpense;
+				PRODUCT_BUNDLE_IDENTIFIER = oi.CupcakeCorner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -302,15 +301,14 @@
 			};
 			name = Debug;
 		};
-		05B6FEB9274CE4470034EBEF /* Release */ = {
+		056D39402761F83200AD6171 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Preview Content\"";
-				DEVELOPMENT_TEAM = 52PGG4Y4Z5;
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -323,7 +321,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = oi.iExpense;
+				PRODUCT_BUNDLE_IDENTIFIER = oi.CupcakeCorner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -334,25 +332,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05B6FEA4274CE4450034EBEF /* Build configuration list for PBXProject "iExpense" */ = {
+		056D392B2761F83000AD6171 /* Build configuration list for PBXProject "CupcakeCorner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05B6FEB5274CE4470034EBEF /* Debug */,
-				05B6FEB6274CE4470034EBEF /* Release */,
+				056D393C2761F83200AD6171 /* Debug */,
+				056D393D2761F83200AD6171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05B6FEB7274CE4470034EBEF /* Build configuration list for PBXNativeTarget "iExpense" */ = {
+		056D393E2761F83200AD6171 /* Build configuration list for PBXNativeTarget "CupcakeCorner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05B6FEB8274CE4470034EBEF /* Debug */,
-				05B6FEB9274CE4470034EBEF /* Release */,
+				056D393F2761F83200AD6171 /* Debug */,
+				056D39402761F83200AD6171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 05B6FEA1274CE4450034EBEF /* Project object */;
+	rootObject = 056D39282761F83000AD6171 /* Project object */;
 }
