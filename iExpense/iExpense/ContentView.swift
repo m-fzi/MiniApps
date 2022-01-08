@@ -4,6 +4,8 @@
 //
 //  Created by f on 23.11.2021.
 //
+//Saving data in JSon format by UserDefaults
+
 
 import SwiftUI
 

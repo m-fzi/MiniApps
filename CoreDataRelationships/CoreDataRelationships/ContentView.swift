@@ -4,6 +4,7 @@
 //
 //  Created by f on 19.12.2021.
 //
+//Building relationships between core data entities (notice: 'one to many', 'constraints'(only on UK has made when you press button) and NSMergePolicy)
 
 import SwiftUI
 
