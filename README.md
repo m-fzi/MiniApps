@@ -1,2 +1,2 @@
-# SwiftApps
-# -- Apps with hackingwithswift.com
+# MiniApps
+Apps with hackingwithswift.com
